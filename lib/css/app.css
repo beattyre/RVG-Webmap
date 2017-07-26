@@ -1,0 +1,161 @@
+html, body, #container, #sidebar{
+	height: 100%;
+	margin: 0px!important;
+	overflow: hidden;
+	font-family: Franklin Gothic Medium, Arial, sans-serif;	
+}
+
+
+#sidebar{
+	background-color: #ddd;
+	display: block;
+	position: relative;
+}
+
+#mapDiv{
+	height: 100%;
+	position: relative;
+}
+
+#greenway-title{
+	font-family: Franklin Gothic Medium, Arial, sans-serif;
+	color: white;
+	font-size: 28px;
+	padding: 10px;
+	vertical-align: bottom;
+}
+
+.greenway-green{
+	background-color: #4E6E58;
+}
+
+.navbar-button {
+	background-color: #5E7B67;
+	color: #fff;
+	font-family: Franklin Gothic Lighther, Arial, sans-serif;
+	padding-top: 10px;
+	float: right;
+}
+
+.navbar-button:hover {
+	background-color: #4E6E58;
+	color: #fff;
+	font-family: Franklin Gothic Lighther, Arial, sans-serif;
+	padding-top: 10px;
+	float: right;
+	border-bottom:1px solid #544b3d;
+}
+
+.navbar-nav>li>a, .navbar-nav>li>a:visited, .navbar-nav>li>a:link, .navbar-nav>li>.dropdown {
+    padding: 9px 5px;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>li>a, .navbar-nav>li>.dropdown{
+    background-color: #5E7B67;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navbar-right{
+	margin-right: 15px;
+}
+
+#navbar-menus{
+	border: 1px solid #fff;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tab-content{
+	padding-top: 25px;
+}
+
+#sidebar-toggle {
+	background-color: #4E6E58;
+	margin: 0px 30px 20px 0px;
+	min-width: 75px;
+	height: 50px;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #8DB1A8;
+    border: 1px solid #fff;
+}
+
+.panel-link{
+	color: #fff;
+}
+
+.panel-body{
+    padding: 10px;
+    background-color: #DAF6EC;
+    margin: 0px;
+    color: #544B3D;
+}
+
+.layer{
+	padding:5px 0px 5px 5px;
+}
+
+.glyphicon:before{
+	visibility: visible;
+}
+
+input[type=checkbox].glyphicon{
+    visibility: hidden;
+}
+
+.legend-header{
+	font-weight:700;
+	text-align: right;
+	font-size:20px;
+}
+
+.legend-layer-title{
+	font-weight: 400;
+	text-align: right;
+	font-size: 14px;
+}
+
+.legend-row-left{
+	padding-right:0px;
+}
+
+.legend-row-left>a{
+	color: inherit;
+}
+
+.legend-row-left>a:visited{
+	color: #544B3D;
+}
+.legend-row-right{
+	padding-left: 0px;
+}
